@@ -1,8 +1,8 @@
 import {Parcela} from './parcela.js';
 
 export class Financiamento {
-  #taxaJuros; //juros mensais
-  #prazo; //em meses
+  #taxaJuros; //atributos privado
+  #prazo; 
   #parcelas = [];
   constructor(valor,entrada,taxaJuros,prazo) {
     this.#taxaJuros = taxaJuros;

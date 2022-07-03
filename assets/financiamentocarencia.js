@@ -1,7 +1,7 @@
 import {Financiamento} from "./financiamento.js";
 import {Parcela} from "./parcela.js";
 
-export class FinanciamentoCarencia extends Financiamento {
+export class FinanciamentoCarencia extends Financiamento { //conceito de herança
   #carencia;
   #taxaJuros;
   #parcelas = [];

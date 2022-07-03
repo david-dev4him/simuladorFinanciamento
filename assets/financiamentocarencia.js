@@ -1,7 +1,7 @@
 import {Financiamento} from "./financiamento.js";
 import {Parcela} from "./parcela.js";
 
-class FinanciamentoCarencia extends Financiamento {
+export class FinanciamentoCarencia extends Financiamento {
   #carencia;
   #taxaJuros;
   #parcelas = [];
@@ -19,5 +19,6 @@ class FinanciamentoCarencia extends Financiamento {
       saldo += Financiamento.calcJuros(saldo,this.#taxaJuros);
       this.#parcelas.push(new Parcela(0,0,0,saldo));
     }
+    super.calcParcelasMensais();
   }
 }

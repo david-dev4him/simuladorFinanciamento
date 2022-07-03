@@ -1,6 +1,6 @@
-import {parcela} from './assets/parcela.js';
+import {parcela} from './parcela.js';
 
-class Financiamento {
+export class Financiamento {
   #taxaJuros; //juros mensais
   #prazo; //em meses
   #parcelas = [];

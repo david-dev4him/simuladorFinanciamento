@@ -11,3 +11,11 @@ font-family: 'Courier New', Courier, monospace;
 font-size: 14pt;
 }
 
+tr:nth-child(even) {
+  background-color: blueviolet;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 15px;
+}

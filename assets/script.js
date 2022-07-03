@@ -1,3 +1,5 @@
+import {financiamento} from './financiamento.js';
+
 const comCarencia = document.querySelector('#comCarencia');
 const listaSuspensa = document.querySelector('#listaSuspensa');
 const corpoTabela = document.querySelector('#corpoTabela');
@@ -21,5 +23,5 @@ botaoCalcular.addEventListener('click',function() {
   const taxaJuros = parseFloat(textoTaxaJuros.value);
   const prazo = parseFloat(textoPrazo.value);
   let simulacao;
-  
+
 });
